@@ -34,12 +34,18 @@ An example of a test case and the results of that test is ...
 On all of our test cases, ...
 Performance Experiments
 
-For Program A, we observed that ...
-
+For Program A, we observed that 
+Attempt 1:
+   o(n^2)
+   Stable
+   either bubblesort with early exit or insertion sort
+   Almost certainly bubblesort with early exit as it does not have the characteristics of the insertion sort in the sorted list and reverse sorted list sorting
 These observations indicate that the algorithm underlying the program ... has the following characteristics ...
 
 For Program B, we observed that ...
-
+   o(nlogn)
+   stable
+   either merge sort or shellsort
 These observations indicate that the algorithm underlying the program ... has the following characteristics ...
 Conclusions
 
