@@ -1,0 +1,287 @@
+ Test sortA
+ 
+ === Testing for random input, size 100 ===
+avg 0.0
+
+=== Testing for sorted input, size 100 ===
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1452maxresident)k
+0inputs+0outputs (0major+86minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1424maxresident)k
+0inputs+0outputs (0major+84minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1476maxresident)k
+0inputs+0outputs (0major+85minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1424maxresident)k
+0inputs+0outputs (0major+86minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1444maxresident)k
+0inputs+0outputs (0major+86minor)pagefaults 0swaps
+
+=== Testing for reverse input, size 100 ===
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1408maxresident)k
+0inputs+0outputs (0major+82minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1428maxresident)k
+0inputs+0outputs (0major+86minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1452maxresident)k
+0inputs+0outputs (0major+86minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1420maxresident)k
+0inputs+0outputs (0major+83minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1440maxresident)k
+0inputs+0outputs (0major+85minor)pagefaults 0swaps
+
+=== Testing for random input, size 1000 ===
+avg 0.0
+
+=== Testing for sorted input, size 1000 ===
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1432maxresident)k
+0inputs+0outputs (0major+88minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1432maxresident)k
+0inputs+0outputs (0major+88minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1492maxresident)k
+0inputs+0outputs (0major+89minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1436maxresident)k
+0inputs+0outputs (0major+90minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1552maxresident)k
+0inputs+0outputs (0major+91minor)pagefaults 0swaps
+
+=== Testing for reverse input, size 1000 ===
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1492maxresident)k
+0inputs+0outputs (0major+89minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1440maxresident)k
+0inputs+0outputs (0major+89minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1516maxresident)k
+0inputs+0outputs (0major+90minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1540maxresident)k
+0inputs+0outputs (0major+91minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1428maxresident)k
+0inputs+0outputs (0major+87minor)pagefaults 0swaps
+
+=== Testing for random input, size 10000 ===
+0.06user
+0.06user 
+0.06user 
+0.06user 
+0.06user
+avg 0.6
+=== Testing for sorted input, size 10000 ===
+0.06user 0.00system 0:00.06elapsed 96%CPU (0avgtext+0avgdata 1644maxresident)k
+0inputs+0outputs (0major+141minor)pagefaults 0swaps
+0.06user 0.00system 0:00.06elapsed 96%CPU (0avgtext+0avgdata 1716maxresident)k
+0inputs+0outputs (0major+143minor)pagefaults 0swaps
+0.06user 0.00system 0:00.06elapsed 96%CPU (0avgtext+0avgdata 1656maxresident)k
+0inputs+0outputs (0major+143minor)pagefaults 0swaps
+0.06user 0.00system 0:00.06elapsed 95%CPU (0avgtext+0avgdata 1680maxresident)k
+0inputs+0outputs (0major+142minor)pagefaults 0swaps
+0.06user 0.00system 0:00.06elapsed 95%CPU (0avgtext+0avgdata 1644maxresident)k
+0inputs+0outputs (0major+142minor)pagefaults 0swaps
+
+=== Testing for reverse input, size 10000 ===
+0.06user 0.00system 0:00.06elapsed 98%CPU (0avgtext+0avgdata 1640maxresident)k
+0inputs+0outputs (0major+140minor)pagefaults 0swaps
+0.06user 0.00system 0:00.06elapsed 95%CPU (0avgtext+0avgdata 1656maxresident)k
+0inputs+0outputs (0major+143minor)pagefaults 0swaps
+0.06user 0.00system 0:00.06elapsed 96%CPU (0avgtext+0avgdata 1644maxresident)k
+0inputs+0outputs (0major+141minor)pagefaults 0swaps
+0.06user 0.00system 0:00.06elapsed 94%CPU (0avgtext+0avgdata 1752maxresident)k
+0inputs+0outputs (0major+143minor)pagefaults 0swaps
+0.06user 0.00system 0:00.06elapsed 96%CPU (0avgtext+0avgdata 1680maxresident)k
+0inputs+0outputs (0major+142minor)pagefaults 0swaps
+
+=== Testing for random input, size 100000 ===
+6.30user 
+6.38user 
+6.33user
+6.31user
+6.27user
+avg 6.32
+
+=== Testing for sorted input, size 100000 ===
+6.27user 0.01system 0:06.30elapsed 99%CPU (0avgtext+0avgdata 3744maxresident)k
+0inputs+0outputs (0major+668minor)pagefaults 0swaps
+6.29user 0.00system 0:06.31elapsed 99%CPU (0avgtext+0avgdata 3812maxresident)k
+0inputs+0outputs (0major+669minor)pagefaults 0swaps
+6.31user 0.00system 0:06.33elapsed 99%CPU (0avgtext+0avgdata 3768maxresident)k
+0inputs+0outputs (0major+670minor)pagefaults 0swaps
+6.27user 0.00system 0:06.29elapsed 99%CPU (0avgtext+0avgdata 3752maxresident)k
+0inputs+0outputs (0major+668minor)pagefaults 0swaps
+6.36user 0.00system 0:06.39elapsed 99%CPU (0avgtext+0avgdata 3756maxresident)k
+0inputs+0outputs (0major+669minor)pagefaults 0swaps
+
+=== Testing for reverse input, size 100000 ===
+6.28user 0.00system 0:06.30elapsed 99%CPU (0avgtext+0avgdata 3780maxresident)k
+0inputs+0outputs (0major+671minor)pagefaults 0swaps
+6.36user 0.00system 0:06.38elapsed 99%CPU (0avgtext+0avgdata 3772maxresident)k
+0inputs+0outputs (0major+670minor)pagefaults 0swaps
+6.35user 0.00system 0:06.37elapsed 99%CPU (0avgtext+0avgdata 3744maxresident)k
+0inputs+0outputs (0major+669minor)pagefaults 0swaps
+6.62user 0.00system 0:06.65elapsed 99%CPU (0avgtext+0avgdata 3824maxresident)k
+0inputs+0outputs (0major+670minor)pagefaults 0swaps
+6.35user 0.00system 0:06.37elapsed 99%CPU (0avgtext+0avgdata 3860maxresident)k
+0inputs+0outputs (0major+670minor)pagefaults 0swaps
+
+=== Testing for random input, size 1000000 ===
+636.66user
+
+
+
+
+Test sortB
+
+
+=== Testing for random input, size 100 ===
+0.00user
+0.00user
+0.00user
+0.00user
+0.00user
+avg 0.0
+
+=== Testing for sorted input, size 100 ===
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1452maxresident)k
+0inputs+0outputs (0major+85minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1408maxresident)k
+0inputs+0outputs (0major+82minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1412maxresident)k
+0inputs+0outputs (0major+83minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1488maxresident)k
+0inputs+0outputs (0major+85minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1472maxresident)k
+0inputs+0outputs (0major+85minor)pagefaults 0swaps
+
+=== Testing for reverse input, size 100 ===
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1484maxresident)k
+0inputs+0outputs (0major+86minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1416maxresident)k
+0inputs+0outputs (0major+84minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1452maxresident)k
+0inputs+0outputs (0major+86minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1532maxresident)k
+0inputs+0outputs (0major+86minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed ?%CPU (0avgtext+0avgdata 1412maxresident)k
+0inputs+0outputs (0major+84minor)pagefaults 0swaps
+
+=== Testing for random input, size 1000 ===
+0.00user
+0.00user
+0.00user
+0.00user
+0.00user
+avg 0.0
+
+=== Testing for sorted input, size 1000 ===
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1520maxresident)k
+0inputs+0outputs (0major+92minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1508maxresident)k
+0inputs+0outputs (0major+90minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1520maxresident)k
+0inputs+0outputs (0major+92minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1456maxresident)k
+0inputs+0outputs (0major+90minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1420maxresident)k
+0inputs+0outputs (0major+87minor)pagefaults 0swaps
+
+=== Testing for reverse input, size 1000 ===
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1500maxresident)k
+0inputs+0outputs (0major+89minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1424maxresident)k
+0inputs+0outputs (0major+88minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1512maxresident)k
+0inputs+0outputs (0major+91minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1512maxresident)k
+0inputs+0outputs (0major+91minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1540maxresident)k
+0inputs+0outputs (0major+91minor)pagefaults 0swaps
+
+=== Testing for random input, size 10000 ===
+0.00user 
+0.00user 
+0.00user
+0.00user 
+0.00user 
+
+=== Testing for sorted input, size 10000 ===
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1648maxresident)k
+0inputs+0outputs (0major+142minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1676maxresident)k
+0inputs+0outputs (0major+144minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1684maxresident)k
+0inputs+0outputs (0major+144minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1648maxresident)k
+0inputs+0outputs (0major+143minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1764maxresident)k
+0inputs+0outputs (0major+145minor)pagefaults 0swaps
+
+=== Testing for reverse input, size 10000 ===
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1680maxresident)k
+0inputs+0outputs (0major+142minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1720maxresident)k
+0inputs+0outputs (0major+145minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1648maxresident)k
+0inputs+0outputs (0major+143minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1704maxresident)k
+0inputs+0outputs (0major+142minor)pagefaults 0swaps
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 1644maxresident)k
+0inputs+0outputs (0major+141minor)pagefaults 0swaps
+
+=== Testing for random input, size 100000 ===
+0.02user
+0.02user
+0.02user
+0.02user
+0.03user
+0.2 avg
+
+=== Testing for sorted input, size 100000 ===
+0.02user 0.00system 0:00.05elapsed 51%CPU (0avgtext+0avgdata 3744maxresident)k
+0inputs+0outputs (0major+668minor)pagefaults 0swaps
+0.02user 0.00system 0:00.05elapsed 50%CPU (0avgtext+0avgdata 3760maxresident)k
+0inputs+0outputs (0major+669minor)pagefaults 0swaps
+0.02user 0.00system 0:00.05elapsed 50%CPU (0avgtext+0avgdata 3756maxresident)k
+0inputs+0outputs (0major+669minor)pagefaults 0swaps
+0.03user 0.00system 0:00.05elapsed 58%CPU (0avgtext+0avgdata 3760maxresident)k
+0inputs+0outputs (0major+669minor)pagefaults 0swaps
+0.02user 0.00system 0:00.05elapsed 50%CPU (0avgtext+0avgdata 3788maxresident)k
+0inputs+0outputs (0major+670minor)pagefaults 0swaps
+
+=== Testing for reverse input, size 100000 ===
+0.02user 0.00system 0:00.05elapsed 50%CPU (0avgtext+0avgdata 3748maxresident)k
+0inputs+0outputs (0major+668minor)pagefaults 0swaps
+0.02user 0.00system 0:00.05elapsed 50%CPU (0avgtext+0avgdata 3776maxresident)k
+0inputs+0outputs (0major+671minor)pagefaults 0swaps
+0.03user 0.00system 0:00.05elapsed 58%CPU (0avgtext+0avgdata 3752maxresident)k
+0inputs+0outputs (0major+670minor)pagefaults 0swaps
+0.03user 0.00system 0:00.05elapsed 57%CPU (0avgtext+0avgdata 3764maxresident)k
+0inputs+0outputs (0major+670minor)pagefaults 0swaps
+0.03user 0.00system 0:00.05elapsed 57%CPU (0avgtext+0avgdata 3788maxresident)k
+0inputs+0outputs (0major+669minor)pagefaults 0swaps
+
+=== Testing for random input, size 1000000 ===
+0.40user
+0.39user
+0.41user
+0.38user
+0.39user
+avg 0.39
+
+=== Testing for sorted input, size 1000000 ===
+0.42user 0.00system 0:00.66elapsed 63%CPU (0avgtext+0avgdata 24840maxresident)k
+0inputs+0outputs (0major+5943minor)pagefaults 0swaps
+0.39user 0.00system 0:00.64elapsed 61%CPU (0avgtext+0avgdata 24916maxresident)k
+0inputs+0outputs (0major+5944minor)pagefaults 0swaps
+0.39user 0.01system 0:00.63elapsed 63%CPU (0avgtext+0avgdata 24888maxresident)k
+0inputs+0outputs (0major+5944minor)pagefaults 0swaps
+0.38user 0.00system 0:00.62elapsed 62%CPU (0avgtext+0avgdata 24852maxresident)k
+0inputs+0outputs (0major+5943minor)pagefaults 0swaps
+0.40user 0.00system 0:00.65elapsed 63%CPU (0avgtext+0avgdata 24852maxresident)k
+0inputs+0outputs (0major+5944minor)pagefaults 0swaps
+
+=== Testing for reverse input, size 1000000 ===
+0.39user 0.00system 0:00.62elapsed 62%CPU (0avgtext+0avgdata 24864maxresident)k
+0inputs+0outputs (0major+5945minor)pagefaults 0swaps
+0.42user 0.00system 0:00.65elapsed 64%CPU (0avgtext+0avgdata 24932maxresident)k
+0inputs+0outputs (0major+5945minor)pagefaults 0swaps
+0.38user 0.00system 0:00.62elapsed 61%CPU (0avgtext+0avgdata 24852maxresident)k
+0inputs+0outputs (0major+5943minor)pagefaults 0swaps
+0.38user 0.00system 0:00.62elapsed 62%CPU (0avgtext+0avgdata 24876maxresident)k
+0inputs+0outputs (0major+5946minor)pagefaults 0swaps
+0.37user 0.01system 0:00.62elapsed 61%CPU (0avgtext+0avgdata 24956maxresident)k
+0inputs+0outputs (0major+5944minor)pagefaults 0swaps
+

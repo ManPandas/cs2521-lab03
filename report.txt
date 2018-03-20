@@ -1,0 +1,54 @@
+COMP2521 Sort Detective Lab Report
+by Patrick C (5161379), Marc Betbeber?? (z?????) 
+
+In this lab, the aim is to measure the performance of two sorting programs, without access to the code, and determine which sort algorithm each program implements.
+Experimental Design
+
+There are two aspects to our analysis:
+
+   determine that the sort programs are actually correct
+   measure their performance over a range of inputs
+
+Correctness Analysis
+
+To determine correctness, we tested each program on 20 lines of text beginning with a number and ending with an arbitary string. We chose these inputs to test as it was a simple test to prove that the sorting algorithm worked
+
+Performance Analysis
+
+In our performance analysis, we measured how each program's execution time varied as the size and initial sortedness of the input varied. We used different amount of lines beginning with a simple 10 line test and then subsequent 100,1000,10000 and 100000 line tests
+
+We used these test cases as it enabled us to determine the differences between the timing complexities of the algorithms, whether they are o(n^2), o(nlogn) or o(n-1)n!.
+
+Because of the way timing works on Unix/Linux, it was necessary to repeat the same test multiple times as the timing is very inaccurate due to other processes running
+
+We were able to use up to quite large test cases without storage overhead because (a) we had a data generator that could generate consistent inputs to be used for multiple test runs, (b) we had already demonstrated that the program worked correctly, so there was no need to check the output.
+
+We also investigated the stability of the sorting programs by running a small list of values with duplicates in the numerical section and seeing if the sort program sorted them differently with each sort.
+
+We also investigated ... any other relevant properties ...
+Experimental Results
+Correctness Experiments
+
+An example of a test case and the results of that test is ...
+
+On all of our test cases, ...
+Performance Experiments
+
+For Program A, we observed that ...
+
+These observations indicate that the algorithm underlying the program ... has the following characteristics ...
+
+For Program B, we observed that ...
+
+These observations indicate that the algorithm underlying the program ... has the following characteristics ...
+Conclusions
+
+On the basis of our experiments and our analysis above, we believe that
+
+    ProgramA implements the uvw sorting algorithm
+    ProgramB implements the xyz sorting algorithm
+
+Appendix
+
+Any large tables of data that you want to present ...
+
